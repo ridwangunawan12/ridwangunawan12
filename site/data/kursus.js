@@ -1,0 +1,609 @@
+/* Dibuat oleh sync_konten.py. Jangan diedit manual. */
+window.KURSUS = {
+ "program": "Corporate Valuation and Credit Risk",
+ "penyelenggara": "Finansiologi",
+ "babak": [
+  {
+   "nama": "Fondasi",
+   "modul": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "warna": "#7DB9E8"
+  },
+  {
+   "nama": "Valuation",
+   "modul": [
+    5,
+    6
+   ],
+   "warna": "#1E90E6"
+  },
+  {
+   "nama": "Credit Risk",
+   "modul": [
+    7,
+    8,
+    9
+   ],
+   "warna": "#1A3A5C"
+  },
+  {
+   "nama": "Jembatan",
+   "modul": [
+    10
+   ],
+   "warna": "#F5A623"
+  },
+  {
+   "nama": "Karier",
+   "modul": [
+    11
+   ],
+   "warna": "#8A97A6"
+  },
+  {
+   "nama": "Capstone",
+   "modul": [
+    12
+   ],
+   "warna": "#2E8B57"
+  }
+ ],
+ "modul": [
+  {
+   "no": 1,
+   "babak": "Fondasi",
+   "judul": "Kickoff: Mengapa Valuation dan Credit Risk Penting",
+   "ringkasan": "Peta besar: kapan sebuah perusahaan butuh valuation dan kapan butuh credit risk assessment, dan mengapa parameter keduanya bergantung pada rezim.",
+   "hasil_peserta": "Pemahaman peta program dan empat skenario nyata.",
+   "parts": [
+    {
+     "id": "m1",
+     "jenis": "materi",
+     "kode": "1",
+     "judul": "Kickoff",
+     "file": "modul-01-kickoff.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": null,
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 2,
+   "babak": "Fondasi",
+   "judul": "Fondasi Corporate Finance",
+   "ringkasan": "Apa itu investasi, tujuan sebenarnya corporate finance, dan mengapa tujuannya memaksimalkan nilai perusahaan.",
+   "hasil_peserta": "Mampu mengklasifikasi keputusan perusahaan.",
+   "parts": [
+    {
+     "id": "m2",
+     "jenis": "materi",
+     "kode": "2",
+     "judul": "Fondasi Corporate Finance",
+     "file": "modul-02-fondasi-corporate-finance.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": null,
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 3,
+   "babak": "Fondasi",
+   "judul": "Analisis Laporan Keuangan untuk Valuation dan Credit Risk",
+   "ringkasan": "Membaca dan menormalisasi laporan keuangan ICBP sebagai bahan bersama kedua disiplin.",
+   "hasil_peserta": "Rasio dasar, normalisasi laba, identifikasi item tidak berulang.",
+   "parts": [
+    {
+     "id": "m3",
+     "jenis": "materi",
+     "kode": "3",
+     "judul": "Analisis Laporan Keuangan",
+     "file": "modul-03-financial-statement-analysis.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m3t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 3",
+     "file": "modul-03-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul3_Lembar_Tugas_ICBP.xlsx",
+     "kb": 16,
+     "deskripsi": "Data laporan keuangan ICBP dan lembar kerja rasio",
+     "tersedia": false,
+     "bytes": 16384
+    }
+   ],
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 4,
+   "babak": "Fondasi",
+   "judul": "Time Value of Money dan Capital Budgeting",
+   "ringkasan": "NPV, IRR, payback, dan keputusan investasi lewat skenario ekspansi ICBP.",
+   "hasil_peserta": "Evaluasi proyek ekspansi dengan NPV, IRR, dan payback.",
+   "parts": [
+    {
+     "id": "m4",
+     "jenis": "materi",
+     "kode": "4",
+     "judul": "Time Value of Money dan Capital Budgeting",
+     "file": "modul-04-time-value-of-money-capital-budgeting.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m4t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 4",
+     "file": "modul-04-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul4_Lembar_Tugas_ICBP.xlsx",
+     "kb": 14,
+     "deskripsi": "Lembar kerja capital budgeting ekspansi ICBP",
+     "tersedia": false,
+     "bytes": 14336
+    }
+   ],
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 5,
+   "babak": "Valuation",
+   "judul": "Cost of Capital, DCF, dan Relative Valuation",
+   "ringkasan": "CAPM dan beta, WACC sadar rezim, DCF lima tahun, serta comps dengan catatan derating peer.",
+   "hasil_peserta": "Model WACC dua rezim, DCF, dan comps untuk ICBP.",
+   "parts": [
+    {
+     "id": "m5a",
+     "jenis": "materi",
+     "kode": "5A",
+     "judul": "Cost of Capital: CAPM, Beta, dan WACC",
+     "file": "modul-05a-cost-of-capital-wacc.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m5b",
+     "jenis": "materi",
+     "kode": "5B",
+     "judul": "Discounted Cash Flow",
+     "file": "modul-05b-discounted-cash-flow.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m5c",
+     "jenis": "materi",
+     "kode": "5C",
+     "judul": "Relative Valuation dan Comps",
+     "file": "modul-05c-relative-valuation-comps.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m5t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 5",
+     "file": "modul-05-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul5_Lembar_Tugas_ICBP.xlsx",
+     "kb": 104,
+     "deskripsi": "Model beta, WACC, DCF, dan comps ICBP",
+     "tersedia": false,
+     "bytes": 106496
+    }
+   ],
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 6,
+   "babak": "Valuation",
+   "judul": "M&A dan LBO",
+   "ringkasan": "Berapa maksimum yang layak dibayar dalam akuisisi strategis, dan mekanika LBO hipotetis.",
+   "hasil_peserta": "Model LBO sederhana dengan IRR sponsor.",
+   "parts": [
+    {
+     "id": "m6a",
+     "jenis": "materi",
+     "kode": "6A",
+     "judul": "M&A Strategis",
+     "file": "modul-06a-ma-strategis.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m6b",
+     "jenis": "materi",
+     "kode": "6B",
+     "judul": "Mekanika LBO",
+     "file": "modul-06b-lbo.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m6t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 6",
+     "file": "modul-06-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul6_Lembar_Tugas_LBO.xlsx",
+     "kb": 45,
+     "deskripsi": "Model LBO hipotetis Dairy ICBP",
+     "tersedia": false,
+     "bytes": 46080
+    }
+   ],
+   "catatan": "Skenario akuisisi dan LBO bersifat HIPOTETIS.",
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 7,
+   "babak": "Credit Risk",
+   "judul": "Credit Risk: Fondasi dan Model Asesmen",
+   "ringkasan": "Dimensi risiko, peringkat dan outlook, 5C, scorecard, dan contoh spread melebar bersamaan dengan EBITDA jatuh.",
+   "hasil_peserta": "Asesmen 5C dan scorecard kredit.",
+   "parts": [
+    {
+     "id": "m7a",
+     "jenis": "materi",
+     "kode": "7A",
+     "judul": "Fondasi Risiko Kredit",
+     "file": "modul-07a-fondasi-risiko-kredit.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m7b",
+     "jenis": "materi",
+     "kode": "7B",
+     "judul": "Model Asesmen Kredit",
+     "file": "modul-07b-model-asesmen-kredit.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m7t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 7",
+     "file": "modul-07-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul7_Lembar_Tugas_Asesmen_Kredit.xlsx",
+     "kb": 49,
+     "deskripsi": "Rasio kredit dan scorecard 5C",
+     "tersedia": false,
+     "bytes": 50176
+    }
+   ],
+   "catatan": "Parameter kredit ILUSTRATIF.",
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 8,
+   "babak": "Credit Risk",
+   "judul": "Expected Loss dan CKPN",
+   "ringkasan": "PD, LGD, EAD, staging 1 sampai 3, dan ECL berdiskonto. Memakai worksheet CKPN sebagai template resmi.",
+   "hasil_peserta": "Worksheet CKPN Stage 1 sampai 3 dan jurnal CKPN.",
+   "parts": [
+    {
+     "id": "m8a",
+     "jenis": "materi",
+     "kode": "8A",
+     "judul": "Expected Loss: PD, LGD, EAD",
+     "file": "modul-08a-expected-loss-pd-lgd-ead.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m8b",
+     "jenis": "materi",
+     "kode": "8B",
+     "judul": "CKPN dan Staging",
+     "file": "modul-08b-ckpn-psak71-stage.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m8t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 8",
+     "file": "modul-08-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul8_Lembar_Tugas_CKPN.xlsx",
+     "kb": 35,
+     "deskripsi": "Worksheet CKPN dan ECL fasilitas hipotetis",
+     "tersedia": false,
+     "bytes": 35840
+    }
+   ],
+   "catatan": "PSAK 71 kini bernomor PSAK 109 (penomoran baru sejak 1 Januari 2024). Fasilitas kredit HIPOTETIS.",
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 9,
+   "babak": "Credit Risk",
+   "judul": "Pengelolaan Kredit dan Model Lanjutan",
+   "ringkasan": "Siklus pengelolaan kredit, covenant, early warning, dan penanganan bermasalah. 9B (Merton, migrasi peringkat, portofolio) bersifat lanjutan opsional.",
+   "hasil_peserta": "Uji covenant, skor early warning, keputusan restrukturisasi.",
+   "parts": [
+    {
+     "id": "m9a",
+     "jenis": "materi",
+     "kode": "9A",
+     "judul": "Siklus Pengelolaan Kredit",
+     "file": "modul-09a-siklus-pengelolaan-kredit.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m9b",
+     "jenis": "materi",
+     "kode": "9B",
+     "judul": "Model Lanjutan (opsional)",
+     "file": "modul-09b-model-lanjutan-kredit.html",
+     "opsional": true,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m9t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 9",
+     "file": "modul-09-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul9_Lembar_Tugas_Pengelolaan_Kredit.xlsx",
+     "kb": 53,
+     "deskripsi": "Covenant, headroom, dan early warning",
+     "tersedia": false,
+     "bytes": 54272
+    }
+   ],
+   "catatan": "Covenant dan parameter ILUSTRATIF.",
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 10,
+   "babak": "Jembatan",
+   "judul": "Dari Valuation ke Credit Risk",
+   "ringkasan": "Kapasitas utang dari EV, recovery dan LGD, downgrade dan refinancing yang diumpankan balik ke WACC, covenant prosiklikal.",
+   "hasil_peserta": "Kapasitas utang, LGD, rantai downgrade ke nilai per saham.",
+   "parts": [
+    {
+     "id": "m10a",
+     "jenis": "materi",
+     "kode": "10A",
+     "judul": "Kapasitas Utang, Recovery, dan LBO",
+     "file": "modul-10a-kapasitas-utang-recovery-lbo.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m10b",
+     "jenis": "materi",
+     "kode": "10B",
+     "judul": "Downgrade, Refinancing, dan Covenant",
+     "file": "modul-10b-downgrade-refinancing-covenant.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m10t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 10",
+     "file": "modul-10-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul10_Lembar_Tugas_Jembatan_Valuation_Credit.xlsx",
+     "kb": 48,
+     "deskripsi": "Jembatan valuation ke credit untuk ICBP",
+     "tersedia": false,
+     "bytes": 49152
+    }
+   ],
+   "catatan": "Skenario downgrade adalah latihan ILUSTRATIF, bukan proyeksi peringkat.",
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 11,
+   "babak": "Karier",
+   "judul": "Peta Karier",
+   "ringkasan": "Peta role di sisi nilai dan sisi risiko, sudut pandang consultant, pemetaan skill ke modul, dan rencana 90 hari.",
+   "hasil_peserta": "Kartu refleksi dan rencana 90 hari.",
+   "parts": [
+    {
+     "id": "m11",
+     "jenis": "bacaan",
+     "kode": "11",
+     "judul": "Peta Karier",
+     "file": "modul-11-peta-karier.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": null,
+   "catatan": null,
+   "level": "",
+   "estimasi": ""
+  },
+  {
+   "no": 12,
+   "babak": "Capstone",
+   "judul": "Capstone Terintegrasi",
+   "ringkasan": "Menyatukan Modul 3 sampai 10 menjadi satu model Excel, lalu mempresentasikannya seperti ke komite.",
+   "hasil_peserta": "Satu model Excel terintegrasi dan presentasi ke committee.",
+   "parts": [
+    {
+     "id": "m12a",
+     "jenis": "materi",
+     "kode": "12A",
+     "judul": "Membangun Model Terintegrasi",
+     "file": "modul-12a-membangun-model-terintegrasi.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m12b",
+     "jenis": "materi",
+     "kode": "12B",
+     "judul": "Memo dan Presentasi ke Committee",
+     "file": "modul-12b-presentasi-ke-committee.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    },
+    {
+     "id": "m12t",
+     "jenis": "tugas",
+     "kode": "Tugas",
+     "judul": "Tugas Modul 12",
+     "file": "modul-12-lembar-tugas-interaktif.html",
+     "opsional": false,
+     "tersedia": false,
+     "level": "",
+     "estimasi": ""
+    }
+   ],
+   "excel_peserta": [
+    {
+     "file": "Finansiologi_Modul12_Lembar_Tugas_Capstone.xlsx",
+     "kb": 90,
+     "deskripsi": "Model terintegrasi ICBP dengan tiga skenario",
+     "tersedia": false,
+     "bytes": 92160
+    }
+   ],
+   "catatan": "Fasilitas kredit HIPOTETIS; keputusan committee adalah latihan.",
+   "level": "",
+   "estimasi": ""
+  }
+ ],
+ "zip": null,
+ "video": {
+  "mp4": "assets/video/Finansiologi_CVCR_Video_Promosi.mp4",
+  "vtt": null
+ }
+};

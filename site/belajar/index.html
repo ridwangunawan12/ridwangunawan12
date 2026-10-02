@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="id" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Belajar | Corporate Valuation and Credit Risk</title>
+<meta name="description" content="Platform belajar Corporate Valuation and Credit Risk: buka materi, kerjakan tugas interaktif, tandai progres, dan unduh Excel peserta per modul.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Finansiologi">
+<meta property="og:locale" content="id_ID">
+<meta property="og:title" content="Belajar | Corporate Valuation and Credit Risk">
+<meta property="og:description" content="Buka materi, kerjakan tugas interaktif, dan unduh Excel peserta per modul.">
+<meta property="og:image" content="../assets/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap">
+<link rel="stylesheet" href="../assets/css/situs.css">
+</head>
+<body class="platform" data-halaman="belajar" data-root="../">
+<a class="lewati" href="#penampil">Lewati ke materi</a>
+
+<header class="p-atas">
+  <button class="ikon-tombol p-menu" id="t-menu" type="button" aria-expanded="false" aria-controls="p-sisi" aria-label="Daftar modul">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+  </button>
+  <a class="merek" href="../" aria-label="Finansiologi, beranda">
+    <svg class="merek-ikon" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="16" fill="#1570C8"/><path d="M24 50V27c0-8 4-13 12-13 3 0 5 .5 7 1.5l-2 6c-1.4-.6-2.8-1-4.4-1-3.4 0-4.6 2.2-4.6 6.5v1h9v6h-9V50z" fill="#fff"/><circle cx="44" cy="46" r="4" fill="#F5A623"/></svg>
+    <span class="merek-teks">finansiologi</span>
+  </a>
+  <div class="p-judul" aria-live="polite">
+    <small id="judul-kecil">Modul</small>
+    <b id="judul-besar">Memuat</b>
+  </div>
+  <div class="p-aksi">
+    <button class="ikon-tombol" id="t-sebelum" type="button" title="Sebelumnya ( [ )" aria-label="Sebelumnya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg><span class="lbl">Sebelumnya</span>
+    </button>
+    <button class="ikon-tombol" id="t-berikut" type="button" title="Berikutnya ( ] )" aria-label="Berikutnya">
+      <span class="lbl">Berikutnya</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+    </button>
+    <button class="ikon-tombol" id="t-selesai" type="button" aria-pressed="false" title="Tandai selesai">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></svg><span class="lbl">Tandai selesai</span>
+    </button>
+    <a class="ikon-tombol sekunder" id="t-tab" href="#" target="_blank" rel="noopener" title="Buka di tab baru" aria-label="Buka di tab baru">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg><span class="lbl">Buka di tab baru</span>
+    </a>
+    <a class="ikon-tombol utama sekunder" id="t-excel" href="#" download hidden title="Unduh Excel modul ini" aria-label="Unduh Excel modul ini">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg><span class="lbl">Unduh Excel modul ini</span>
+    </a>
+  </div>
+</header>
+
+<div class="p-tubuh">
+  <aside class="p-sisi" id="p-sisi" aria-label="Daftar modul dan progres">
+    <div class="p-progres">
+      <div class="cincin" id="cincin" role="img" aria-label="Progres 0 persen">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle class="jalur" cx="32" cy="32" r="28"/><circle class="isi" cx="32" cy="32" r="28"/></svg>
+        <span id="cincin-angka" aria-hidden="true">0%</span>
+      </div>
+      <div class="p-progres-teks">
+        <b>Progres belajarmu</b>
+        <span id="progres-teks">0 bagian selesai</span>
+        <div>
+          <button type="button" class="tautan-reset" id="t-reset">Reset progres</button>
+          <div class="konfirmasi" id="konfirmasi" hidden>
+            <span>Hapus semua tanda selesai?</span>
+            <button type="button" class="bahaya" id="t-reset-ya">Ya, reset</button>
+            <button type="button" id="t-reset-batal">Batal</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-aksi-laci">
+      <a class="ikon-tombol" id="t-tab-laci" href="#" target="_blank" rel="noopener">Buka di tab baru</a>
+      <a class="ikon-tombol utama" id="t-excel-laci" href="#" download hidden>Unduh Excel modul ini</a>
+    </div>
+    <div class="p-cari">
+      <label class="sr" for="cari">Cari judul modul atau bagian</label>
+      <input id="cari" type="search" placeholder="Cari modul atau bagian" autocomplete="off">
+      <kbd aria-hidden="true">/</kbd>
+    </div>
+    <nav class="p-daftar" id="p-daftar" aria-label="Modul"></nav>
+  </aside>
+  <div class="p-tirai" id="p-tirai" hidden></div>
+
+  <main class="p-utama" id="konten">
+    <iframe id="penampil" title="Penampil modul" tabindex="0"></iframe>
+    <div class="p-pesan" id="p-pesan" hidden>
+      <div class="kartu">
+        <h2>Materi ini belum tersedia</h2>
+        <p>Berkas untuk bagian ini belum ada di salinan situs ini. Coba bagian lain lewat daftar modul, atau kembali lagi nanti.</p>
+        <a class="tombol tombol-kecil tombol-lunak" href="../silabus/">Lihat silabus</a>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="../data/kursus.js"></script>
+<script src="../assets/js/situs.js"></script>
+<script src="../assets/js/belajar.js"></script>
+</body>
+</html>

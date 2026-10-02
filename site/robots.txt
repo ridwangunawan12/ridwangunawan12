@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Isi alamat sitemap setelah domain ditetapkan, misalnya:
+# Sitemap: https://contoh.domain/sitemap.xml
